@@ -1,0 +1,8 @@
+<h1>Tell us all about your puppy!</h1>
+
+<%= simple_form_for @puppy do |f| %>
+  <%= f.input :name %>
+  <%= f.input :breed %>
+  <%= f.input :age %> 
+  <%= f.submit 'Add your Pup!' %>
+<% end %>
